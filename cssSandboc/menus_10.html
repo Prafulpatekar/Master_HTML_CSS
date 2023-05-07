@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menus and Nav</title>
+    <style>
+         * {
+             padding: 0;
+             margin: 0;
+         }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* side Menu */
+        .side-menu { 
+            list-style: none;
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 25%;
+            padding: 10px;
+        }
+        .side-menu li {
+            font-size: 19px;
+            line-height: 2.5em;
+            border-bottom: 1px dotted gray;
+        }
+        .side-menu li:last-child {
+            border: none;
+        }
+        .side-menu li a{
+            text-decoration: none;
+        }
+        .side-menu li a:hover{
+            color: red;
+
+        }
+
+        /* Navbar */
+        .nav-menu {
+            list-style: none;
+            padding: 10px;
+            background-color: black;
+            border-radius: 5px;
+            overflow: auto;
+        }
+        .nav-menu li{
+            float: left;
+            
+        }
+        .nav-menu li a {
+            display: block;
+            text-decoration: none;
+            color: antiquewhite;
+            padding: 10px 15px;
+           
+        }
+        .nav-menu li a:hover{
+            background-color: antiquewhite;
+            color: black;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <ul class="nav-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <ul class="side-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</body>
+</html>
